@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vinheria Agnello</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="stage">
+      <div class="phone">
+        <header class="app-header">
+          <button class="icon-btn" id="backBtn" aria-label="Voltar">‹</button>
+          <div class="brand" data-route="feed" role="button" tabindex="0" aria-label="Voltar para feed principal">
+            <span class="brand-dot">🍷</span>
+            <strong>Vinheria Agnello</strong>
+          </div>
+          <div class="icons">
+            <span data-route="profile-sofia" role="button" tabindex="0" aria-label="Perfil">♡</span>
+            <span data-route="cart" role="button" tabindex="0" aria-label="Carrinho">🛒</span>
+          </div>
+        </header>
+
+        <nav class="top-tabs">
+          <button data-route="feed" class="top-tab">Comunidade</button>
+          <button data-route="home" class="top-tab">Encontre seu vinho</button>
+          <button data-route="club" class="top-tab">Clube Agnelo</button>
+        </nav>
+
+        <main id="screen"></main>
+
+        <footer class="bottom-nav">
+          <div class="bottom-brand-row" data-route="feed" role="button" tabindex="0" aria-label="Voltar para feed principal">
+            <span class="brand-dot">🍷</span>
+            <small>Vinheria Agnello</small>
+          </div>
+          <div class="bottom-links-row">
+            <button data-route="home" class="bottom-link">Sobre</button>
+            <button data-route="feed" class="bottom-link">Feed</button>
+            <button data-route="home" class="bottom-link">Encontre seu vinho</button>
+            <button data-route="club" class="bottom-link">Clube Agnelo</button>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script type="module" src="js/app.js"></script>
+  </body>
+</html>
